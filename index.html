@@ -1,0 +1,128 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de Mètres Carrés (m²) Avancé</title>
+    <meta name="description"
+        content="Calculez facilement et précisément la surface en mètres carrés (m²) de vos pièces et terrains. Notre calculateur avancé offre des options pour différentes formes et unités.">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="modulepreload" href="config.js">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js');
+            });
+        }
+    </script>
+</head>
+<script type='text/javascript' src='//pl26112024.profitableratecpm.com/68/12/21/681221fca7b1426ba94971d2c3dbdac8.js'></script>
+<body>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Calculateur de Mètres Carrés (m²)",
+        "url": "https://example.com/",
+        "description": "Calculez facilement et précisément la surface en mètres carrés (m²) de vos pièces et terrains. Notre calculateur avancé offre des options pour différentes formes et unités.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <header>
+        <h1>Calculateur de Mètres Carrés (m²)</h1>
+        <p>Outil en ligne pour calculer facilement la surface de vos pièces et terrains.</p>
+    </header>
+
+    <main>
+        <section id="calculator">
+            <h2>Calculer une surface</h2>
+            <div class="input-group">
+                <label for="shape">Forme:</label>
+                <select id="shape">
+                    <option value="rectangle">Rectangle/Carré</option>
+                    <option value="circle">Cercle</option>
+                    <option value="triangle">Triangle</option>
+                </select>
+            </div>
+
+            <div id="rectangle-inputs" class="shape-inputs">
+                <div class="input-group">
+                    <label for="rectangle-width">Largeur (m):</label>
+                    <input type="number" id="rectangle-width" name="rectangle-width" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label for="rectangle-length">Longueur (m):</label>
+                    <input type="number" id="rectangle-length" name="rectangle-length" step="0.01">
+                </div>
+            </div>
+
+            <div id="circle-inputs" class="shape-inputs" style="display: none;">
+                <div class="input-group">
+                    <label for="circle-radius">Rayon (m):</label>
+                    <input type="number" id="circle-radius" name="circle-radius" step="0.01">
+                </div>
+            </div>
+
+            <div id="triangle-inputs" class="shape-inputs" style="display: none;">
+                <div class="input-group">
+                    <label for="triangle-base">Base (m):</label>
+                    <input type="number" id="triangle-base" name="triangle-base" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label for="triangle-height">Hauteur (m):</label>
+                    <input type="number" id="triangle-height" name="triangle-height" step="0.01">
+                </div>
+            </div>
+
+            <button id="calculate-button">Calculer</button>
+
+            <div id="result" style="display: none;">
+                <h3>Résultat:</h3>
+                <p id="area-result"></p>
+            </div>
+        </section>
+
+        <section id="seo-content">
+            <h2>Pourquoi utiliser notre calculateur de mètres carrés ?</h2>
+            <p>Notre calculateur de mètres carrés (m²) est un outil indispensable pour tous vos projets immobiliers,
+                de construction ou de rénovation. Il vous permet de calculer rapidement et précisément la surface de
+                vos pièces, terrains, appartements, maisons, etc.</p>
+
+            <h3>Avantages de notre calculateur :</h3>
+            <ul>
+                <li>Calcul précis et rapide de la surface en mètres carrés.</li>
+                <li>Prise en charge de différentes formes géométriques (rectangle, cercle, triangle).</li>
+                <li>Idéal pour les professionnels de l'immobilier, les architectes, les décorateurs d'intérieur et les
+                    particuliers.</li>
+                <li>Optimisé pour une utilisation sur tous les appareils (ordinateurs, tablettes, smartphones).</li>
+            </ul>
+
+            <h3>Comment utiliser notre calculateur :</h3>
+            <ol>
+                <li>Sélectionnez la forme géométrique de la surface à calculer.</li>
+                <li>Entrez les dimensions requises (largeur, longueur, rayon, base, hauteur).</li>
+                <li>Cliquez sur le bouton "Calculer".</li>
+                <li>Le résultat s'affiche instantanément en mètres carrés (m²).</li>
+            </ol>
+
+            <p>Que vous soyez un professionnel ou un particulier, notre calculateur de mètres carrés vous simplifie la
+                vie et vous fait gagner un temps précieux. Essayez-le dès maintenant !</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Calculateur de Mètres Carrés (m²) - Tous droits réservés.</p>
+        <a href="privacy.html">Politique de Confidentialité</a>
+    </footer>
+</body>
+
+</html>
